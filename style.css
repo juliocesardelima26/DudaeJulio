@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'valentine';
-    src: url('Valentine.ttf') format('truetype') ;
+    src: url('fontes/VALENTIN.TTF') format('truetype') ;
 }
 
 
@@ -12,12 +12,9 @@ body {
 }
 
 header {
-    
-    padding: 10px;
-    border: 10px;
-    margin: auto;
+    background-color: rgba(255, 182, 193, 0.644);
+    min-height: 150px;
     text-align: center;
-    font-family: 'Valentine';
     
 
 
@@ -33,7 +30,7 @@ header {
 }
 
 h1 {
-    background-color: rgba(255, 182, 193, 0.644);
+    
     color: red;
     font-family: 'valentine';
     font-size: 50px;
@@ -49,13 +46,18 @@ h1 {
 
 }
 
+nav {
+    padding: 10px;
+    background-color: rgba(255, 182, 193, 0.644);
+    text-align: center;
+}
+
 nav > a {
 
+    padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    padding-top: 20px;
-    margin-right: 20px;
-    text-align: justify;
     color: darkred;
     
 
@@ -63,8 +65,13 @@ nav > a {
 
 }
 
+nav > a:hover {
+    background-color: darkred;
+    color: white;
+}
+
 main {
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, 0.644);
     
         min-width: 320px;
         max-width: 800px;
