@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'valentine';
+    src: url('Valentine.ttf') format('truetype') ;
+}
+
+
+body {
+    background-image: url(Imagens/coracao.jpg);
+
+}
+
+header {
+    
+    padding: 10px;
+    border: 10px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Valentine';
+    
+
+
+
+
+
+
+
+
+
+
+
+}
+
+h1 {
+    background-color: rgba(255, 182, 193, 0.644);
+    color: red;
+    font-family: 'valentine';
+    font-size: 50px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    border: 50px;
+
+
+
+
+
+
+}
+
+nav > a {
+
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    color: darkred;
+    
+
+
+
+}
+
+main {
+    background-color: lightpink;
+    padding: 50px;
+
+    border-radius: 20px;
+    margin: auto;
+    margin: 0px 100px 0px 100px;
+    
+    
+
+
+}
+
+article {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+
+
+}
+footer {
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    margin: auto;
+
+}
+#next {
+    color: darkred;
+    text-decoration: none;
+    
+}
+audio {
+    text-align: center;
+    
+}
