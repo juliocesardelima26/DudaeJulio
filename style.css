@@ -3,6 +3,13 @@
 @font-face {
     font-family: 'valentine';
     src: url('fontes/VALENTIN.TTF') format('truetype') ;
+
+    
+}
+
+@font-face {
+    font-family: 'Heli';
+    src: url('fontes/Heli.otf') format('opentype');
 }
 
 
@@ -48,8 +55,9 @@ h1 {
 
 nav {
     padding: 10px;
-    background-color: rgba(255, 182, 193, 0.644);
+    background-color: pink;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 nav > a {
@@ -68,6 +76,7 @@ nav > a {
 nav > a:hover {
     background-color: darkred;
     color: white;
+
 }
 
 main {
@@ -80,7 +89,7 @@ main {
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
         padding: 20px;
-        border-radius: 10px;
+        
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     
 
@@ -129,4 +138,11 @@ audio {
     align-items: center;
     justify-content: center;
     
+}
+
+main.texto {
+    font-family: 'Heli';
+    font-size: 50px;
+    background-color: lightsalmon;
+
 }
