@@ -120,19 +120,8 @@ h2 {
 
 
 }
-footer {
-    text-align: right;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: none;
-    margin: auto;
 
-}
-#next {
-    color: darkred;
-    text-decoration: none;
-    
-}
+
 audio {
     display: flex;
     align-items: center;
@@ -143,6 +132,27 @@ audio {
 main.texto {
     font-family: 'Heli';
     font-size: 50px;
-    background-color: lightsalmon;
+
+    
+
 
 }
+
+.p1 {
+    height: 120px;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    background-image: url('Imagens/poema1');
+    background-size: cover;
+    background-position: center center;
+   
+
+}
+
+.cp {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+}
+
